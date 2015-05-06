@@ -1,0 +1,230 @@
+<html>
+
+<body>
+
+<p>每个表格由 table 标签开始。</p>
+<p>每个表格行由 tr 标签开始。</p>
+<p>每个表格数据由 td 标签开始。</p>
+
+<h4>一列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+</tr>
+</table>
+
+<h4>一行三列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+</table>
+
+<h4>两行三列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+<tr>
+  <td>400</td>
+  <td>500</td>
+  <td>600</td>
+</tr>
+</table>
+
+<div style='height:600px'><hr/></div>
+
+
+
+<h3>无表格框的</h3>
+<table >
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+</tr>
+<tr>
+<td>row 2, cell 1</td>
+<td>row 2, cell 2</td>
+</tr>
+</table>
+
+<h3>有表格框的</h3>
+<table border="1">
+<tr>
+<td>Row 1, cell 1</td>
+<td>Row 1, cell 2</td>
+</tr>
+
+</table>
+
+<!-- ========================= -->
+<div style='height:600px'><hr/></div>
+
+
+<h3>有表头的</h3>
+
+<h4>表头：</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <th>电话</th>
+  <th>电话</th>
+</tr>
+<tr>
+  <td>Bill Gates</td>
+  <td>555 77 854</td>
+  <td>555 77 855</td>
+</tr>
+</table>
+
+<h4>垂直的表头：</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <td>Bill Gates</td>
+</tr>
+<tr>
+  <th>电话</th>
+  <td>555 77 854</td>
+</tr>
+<tr>
+  <th>电话</th>
+  <td>555 77 855</td>
+</tr>
+</table>
+
+<!-- ========================= -->
+<div style='height:600px'><hr/></div>
+
+<h3>空单元格</h3>
+<table border="1">
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+</tr>
+<tr>
+<td></td>
+<td>row 2, cell 2</td>
+</tr>
+</table>
+
+<h3>空单元格（带占位字符的）</h3>
+<table border="1">
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>row 2, cell 2</td>
+</tr>
+</table>
+
+<!-- ========================= -->
+<div style='height:600px'><hr/></div>
+
+
+<table border="1">
+<tr>
+  <td>
+   <p>这是一个段落。</p>
+   <p>这是另一个段落。</p>
+  </td>
+  <td>这个单元包含一个表格：
+   <table border="1">
+   <tr>
+     <td>A</td>
+     <td>B</td>
+   </tr>
+   <tr>
+     <td>C</td>
+     <td>D</td>
+   </tr>
+   </table>
+  </td>
+</tr>
+<tr>
+  <td>这个单元包含一个列表：
+   <ul>
+    <li>苹果</li>
+    <li>香蕉</li>
+    <li>菠萝</li>
+   </ul>
+  </td>
+  <td>HELLO</td>
+</tr>
+</table>
+
+
+
+<div style='height:600px'><hr/></div>
+
+<table border="1">
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+<td>row 1, cell 3</td>
+<td>row 1, cell 4</td>
+</tr>
+<tr>
+<td colspan=2>row 2, cell 1</td>
+<td>row 2, cell 3</td>
+<td>row 2, cell 4</td>
+</tr>
+
+<tr>
+<td>row 3, cell 1</td>
+<td>row 3, cell 2</td>
+<td rowspan=2 colspan=2>row 3, cell 3</td>
+</tr>
+
+<tr>
+<td>row 4, cell 1</td>
+<td>row 4, cell 2</td>
+</tr>
+
+</table>
+
+<!-- ========================= -->
+<div style='height:600px'><hr/></div>
+
+<h3>表格的标题、眉与脚</h3>
+
+<table border="1">
+  <caption>我的标题</caption>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+
+
+<!-- ========================= -->
+<div style='height:600px'><hr/></div>

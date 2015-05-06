@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>{% block title %}缺省标题{% end %}</title>
+    {% block js %}{% end %} 
+  </head>
+  <body>
+    <table border=1 width=80%>
+      <tr style="height=100px;">
+        <td colspan=2>header</td> </tr>
+      <tr >
+        <td width='15em'>Menu1</td>
+        <td>
+        {% block content %}
+        {% end %}          
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
