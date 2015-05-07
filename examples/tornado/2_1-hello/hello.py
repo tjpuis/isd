@@ -11,9 +11,7 @@ application = tornado.web.Application([
 
 if __name__ == "__main__":
     application.listen(8888)
-    print('starting')
     tornado.ioloop.IOLoop.instance().start()
-    print('stopped')
     
 
     
