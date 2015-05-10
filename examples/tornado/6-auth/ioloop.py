@@ -44,7 +44,7 @@ def _set_windows_console_size(width, height, line_buffer_size=1500) :
 
     k32 = ctypes.windll.kernel32 #调用Win内核API
         
-    STDOUT = -12        
+    STDOUT = -11       
     hndl = k32.GetStdHandle(STDOUT)
 
     bufsize = ctypes.wintypes._COORD(width, line_buffer_size)
